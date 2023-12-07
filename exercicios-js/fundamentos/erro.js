@@ -19,4 +19,4 @@ function imprimirNomeGritando(obj) {
 
 const obj = { nome: 'Roberto'}
 
-imprimirNomeGritando()
+imprimirNomeGritando(obj)
