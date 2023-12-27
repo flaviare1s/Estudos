@@ -5,7 +5,7 @@ const produtos = [
     { nome: 'Copo de Plástico', preco: 4, fragil: false}
 ] 
 
-const frageis = produto => produto.fragil === true
+const frageis = produto => produto.fragil
 
 const caros = produto => produto.preco > 1000
 
