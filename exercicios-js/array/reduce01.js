@@ -8,6 +8,6 @@ const alunos = [
 const resultado = alunos.map(a => a.nota).reduce((acc, atual) => {
     console.log(acc, atual)
     return acc + atual
-})
+}, 0)
 
 console.log(resultado)
